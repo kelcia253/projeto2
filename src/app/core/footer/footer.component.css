@@ -1,7 +1,11 @@
 .site-footer{
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
   display:flex;
   justify-content: space-between;
+  position:absolute;
+  bottom:0;
+  width: 99%;
+  height: 2.5rem;
 }
 h1{
   font-size: 1.5rem;

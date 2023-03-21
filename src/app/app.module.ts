@@ -1,3 +1,4 @@
+import { TesteService } from './teste.service';
 import { CoreModule } from './core/core.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -13,9 +14,10 @@ import { NovoComponenteComponent } from './paginas/novo-componente/novo-componen
   ],
   imports: [
     BrowserModule,
+
     CoreModule
   ],
-  providers: [],
+  providers: [TesteService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
